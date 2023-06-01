@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-logic {
+  cursor: pointer;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.mg-bor {
+  padding: 4px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* Navbar-header */
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content-register {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.Toastify__toast-container--top-center {
+  width: 433px;
+}
+
+/* User Cart */
+.photo-content .cover-photo {
+  background: url(https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/cover.jpg?alt=media&token=b78d296b-b6a8-40ec-bc45-298dfa8c5b4b);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 100%;
+}
+
+.page-titles {
+  padding: 0.9375rem 1.25rem;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.page-titles h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #593bdb;
+  font-size: 1.25rem;
+}
+
+.photo-content {
+  position: relative;
+}
+
+.photo-content .profile-photo {
+  bottom: -75px;
+  left: 100px;
+  max-width: 150px;
+  position: absolute;
+}
+
+.profile-info {
+  padding: 30px 20px;
+  background: #F7FAFC;
+}
+
+/* PC */
+@media(min-width:1024px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+
+  /* LayoutNavbar.jsx */
+  header {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  header a {
+    line-height: 102px;
+    /* margin-left: 112px; */
+  }
+
+  header img {}
+
+  header .header-search {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .header-user p {
+    display: none;
+  }
+
+  /* EndLayoutNavbar */
+
+  /* Body - View-Result */
+  #slider {
+    margin-left: 18px;
+  }
+
+  .container .view_result {
+    width: 90%;
+  }
+
+  .container1 {
+    margin-right: 24px;
+  }
+
+  /* End Body - View-Result */
+  /* End LayoutNavbar.jsx */
+
+  /* ItemPage.jsx */
+
+  .item-content {}
+
+  .content-extra {
+    margin-left: 0 !important;
+    width: 305px !important;
+  }
+
+  .content-extra .extra-room-input {
+    padding-right: 0 !important;
+  }
+
+  .room-main {
+    justify-content: space-between;
+  }
+
+  .extra-room-input input,
+  .extra-room-output input {
+    width: 114px;
+  }
+
+  .content-locate .content-locate-1 {
+    padding: 0 !important;
+  }
+
+  .content-locate-1 {
+    margin-right: 28px;
+  }
+
+  /* End ItemPage.jsx */
+
+  /* Start PayMentPage.jsx */
+  .selectMenu {
+    margin-top: 9px !important;
+  }
+
+  .list-group {
+    display: block;
+    margin-top: 51px !important;
+  }
+
+  /* End PaymentPage.jsx */
+  /* Start UserCart.jsx */
+  .row.info {
+    margin-top: 42px;
+  }
+
+  /* End UserCart.jsx */
+}
+
+/* Tablet vs mobile */
+@media(max-width:1023px) {}
+
+/* Mobile */
+@media(max-width:740px) {
+  header {
+    width: 100%;
+  }
+
+  header img {
+    margin-top: 3px;
+  }
+
+  .header-search {
+    width: 30%;
+    margin-left: 0 !important;
+  }
+
+  .header-search input {
+    width: 172px !important;
+    padding: 3px !important;
+    /* margin-right: 54px; */
+    position: absolute;
+    left: 0;
+  }
+
+  .header-search button {
+    right: -52% !important;
+  }
+
+  .header-user .user-info {
+    padding: 4px 7px !important;
+  }
+
+  .header-user p {
+    display: none;
+  }
+
+  /* Slider */
+  #slider {
+    margin-left: 15px !important;
+  }
+
+  .owl-theme .owl-nav {
+    margin-bottom: 12px;
+  }
+
+  /* View result */
+  .view_result {
+    width: 100% !important;
+    line-height: 32px !important;
+  }
+
+  .view_result span {
+    margin-right: 0 !important;
+  }
+
+  .content-extra {}
+
+  .room-btn {
+    position: fixed;
+    bottom: -15px;
+    right: -27px;
+    background-color: #fbfafa;
+    display: flex;
+    width: 100%;
+    border: none !important;
+    margin-bottom: 62px !important;
+
+  }
+
+  .room-main {
+
+    font-size: large;
+  }
+
+  #btn-set {
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    width: 100% !important;
+    height: 46px;
+    border-radius: 25px;
+  }
+
+  .extra-room-output {
+    padding: 0 !important;
+  }
+
+  .content-main {
+    width: 100% !important;
+  }
+
+  .item-content {}
+
+  .content-extra .extra-room-input {
+    padding-right: 15px !important;
+  }
+
+  .content-extra .extra-room-output {
+    padding-left: 15px !important;
+  }
+
+  .user-select {
+    display: none !important;
+  }
+
+  #sum_money {}
+
+  /* Payment.jsx */
+  .order-details {
+    width: 262px;
+  }
+
+  .list-group-item {
+    width: 228px;
+    padding: 0 !important;
+  }
+
+  .container .row .col-4 {
+    position: relative !important;
+  }
+
+  .col-4 .row .col-7 {
+    width: 100% !important;
+  }
+
+  .WillHidden {
+    display: none;
+  }
+
+  .col-5 .order-details {
+    margin-top: 50px;
+  }
+
+  .list-group {
+    margin-top: 40px;
+  }
+
+  .selectMenu {
+    position: relative;
+    left: -93px;
+    bottom: 28px;
+  }
+
+  .list-group {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    /* padding-top: 0 !important; */
+    margin-top: 42px;
+  }
+  .login-network{
+    width: 262px;
+  }
+}

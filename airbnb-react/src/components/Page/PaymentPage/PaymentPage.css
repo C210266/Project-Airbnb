@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+        Helvetica Neue, sans-serif;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #ebebeb;
+}
+
+header .logo {
+    width: 180px;
+    height: 80px;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Content */
+.container-fluid .container {
+    width: 100%;
+    padding: 4% 0;
+}
+
+.col button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: none;
+    border: none;
+    font-size: x-large;
+    float: right;
+}
+
+.container .row h3 {
+    margin: 5% 0% 2% 0%;
+}
+
+.col-5 .order-details {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5%;
+}
+
+.order-details .col-3 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.purchase .text {
+    margin-bottom: 2%;
+}
+
+.container .row .col-4 {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin: 5.3% 0;
+    padding: 2% 2%;
+    height: fit-content;
+    position: sticky;
+    top: 15%
+}
+
+.col-4 .col-5 {
+    width: 160px;
+    height: 100px;
+}
+
+.col-4 .col-5 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.col-4 .col-7 .text {
+    font-size: small;
+   
+}
+
+.col-4 .row {
+    padding: 3% 0%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+
+.list-group-item input {
+    height: 3rem;
+    padding-left: 1%;
+}
+
+.list-group-item input:focus {
+    outline: none
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.btn-continue {
+    background-image: linear-gradient(to left, #E61E4E, #D70565);
+    color: white;
+    font-size: 3vh;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.login-network {
+    margin-top: 4%;
+}
+
+.login-network .row .col-3 {
+    width: 27%;
+    height: 3rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3rem;
+    font-size: x-large;
+}
+.login-network .row .col-3:hover{
+    background-color: green;
+}
+
+.login-network button {
+    background-color: white;
+    border: none;
+}
+
+.row .col-3 .fa-square-facebook {
+    color: #1877F2;
+}
+
+.row .col-3 .fa-square-google-plus {
+    color: #EA4335;
+}
+
+.row .col-3 .fa-apple {
+    color: black;
+}
+
+.login-network .btn-continue-email {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid black;
+    margin-top: 4%;
+}
+
+/* Footer */
+footer .row {
+    background-color: #f7f7f7;
+    border: 1px solid red;
+    padding-left: 10rem;
+    line-height: 3em;
+    border-top: 1px solid #ebebeb;
+}
+
+footer .row ul {
+    display: flex;
+    list-style: none;
+}
+
+footer .row ul li {
+    margin-right: 1rem;
+}
+
+footer .row .col-6:nth-child(even) {
+    padding-left: 5rem;
+    font-size: large;
+}
+
+.btn-round {
+    position: relative;
+    border: 3px solid #999;
+    right: 0;
+    border-radius: 50%;
+    align-self: center;
+
+}
+
+.btn-round-full {
+    position: relative;
+    border: 3px solid #000;
+    right: 0;
+    border-radius: 50%;
+    background-color: #000;
+    align-self: center;
+}
+
+.btn-content {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-weight: 900;
+}
+
+.money-date {
+    display: flex;
+
+}
+
+.sum-money {
+    margin-right: 80px;
+}
+
+.money-date span,
+.money-date div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.money-date span {
+    margin-right: 80px;
+}

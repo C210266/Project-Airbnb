@@ -1,0 +1,169 @@
+.item-user {
+    margin: 18px 0 24px;
+}
+
+.item-user p {}
+
+.item-user .user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.user-login {
+    position: relative;
+}
+
+
+.login a {
+    text-decoration: none;
+
+}
+
+.login span {
+    border-bottom: 0.5px solid #dad7d7;
+    padding-bottom: 8px;
+}
+
+
+
+
+.user-info a {
+    margin: 0 12px;
+    color: black;
+}
+
+/* Item-content */
+.content-main .content-more {}
+
+.content-main .content-more-icon i {
+    line-height: 56px;
+    width: 35px;
+    font-size: 28px;
+}
+
+.content-main .content-text {
+    padding-bottom: 33px;
+
+}
+
+.content-main .content-auth {
+    padding-bottom: 33px;
+}
+
+.content-locate .content-locate-1 {
+    padding: 12px 77px 19px 16px;
+    border: 1px solid #EAEAEA;
+    /* margin: 0 10px; */
+    border-radius: 13px;
+}
+
+.content-locate .content-locate-1 i {
+    margin-bottom: 10px;
+}
+
+.content-locate .content-locate-1 p {
+    margin-bottom: 0;
+}
+
+.content-add .add-main {
+    justify-content: space-between;
+}
+
+
+
+.content-extra {
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 80px;
+    padding: 4px;
+    top: 0;
+    position: sticky;
+    border: 1px solid #999;
+    height: 405px;
+    width: 425px;
+}
+
+.content-extra .room-btn {
+    border: 1px solid #999;
+    margin: 0 16px;
+    border-radius: 8px;
+}
+
+.content-extra .room-main {
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+.content-extra .extra-room-input {
+    padding-right: 40px;
+}
+
+.content-extra .extra-room-output {
+    padding-left: 20px;
+}
+
+.content-extra .btn {
+    text-align: center;
+    background-color: #ff385ce6;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.content-extra .result {
+    text-align: center;
+}
+
+
+.item-rate .rate-user-img {
+    line-height: 62px;
+    font-size: 33px;
+}
+
+.item-more {
+    justify-content: space-around;
+}
+
+.item-image {
+    display: flex;
+}
+
+/* User-select */
+.user-select {
+    position: relative;
+    display: flex;
+}
+
+.user-option {
+    position: absolute;
+    top: 44px;
+    z-index: 10000;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #999;
+    box-shadow: 3px 4px 10px 0px;
+    ;
+
+}
+
+.user-option-name {
+    line-height: 12px;
+    padding-top: 10px;
+}
+
+.user-option-count {
+    line-height: 56px;
+    text-align: end;
+}
+
+.user-option-name,
+.user-option-count {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+
+}
+#quantity {
+    margin: 0 9px;
+}

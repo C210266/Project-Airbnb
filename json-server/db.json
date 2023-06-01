@@ -1,0 +1,211 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Thành phố Nha Trang",
+      "address": "Nhiệt đới",
+      "price": 60,
+      "rating": 4.81,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/0cbb0adc-0189-4e82-bc33-9b1f5fbebfdb.jpg?alt=media&token=899603a4-9733-49ec-b837-262465ab4fd6",
+      "descrip": "Nha Trang là một thành phố ven biển và là trung tâm chính trị, kinh tế, văn hóa, khoa học kỹ thuật và du lịch của tỉnh Khánh Hòa, Việt Nam."
+    },
+    {
+      "id": 2,
+      "name": "Thành phố Thanh Hóa",
+      "address": "Xa lộ",
+      "price": 40,
+      "rating": 4.9,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/11.jpeg?alt=media&token=b9e0b5d8-f353-4967-9433-ffaa5742e4eb",
+      "descrip": "Thanh Hóa là một tỉnh thuộc vùng Bắc Trung Bộ Việt Nam.[4] Đồng thời là một tỉnh lớn của Việt Nam, có dân số đứng thứ 3, diện tích đứng thứ 5 cả nước."
+    },
+    {
+      "id": 3,
+      "name": "Thành phố Vũng Tàu",
+      "address": "Thuyền",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/12.jpg?alt=media&token=4c3a36ff-2091-4da1-916d-9389cb474bc2",
+      "descrip": "Thanh Hóa là một tỉnh thuộc vùng Bắc Trung Bộ Việt Nam.[4] Đồng thời là một tỉnh lớn của Việt Nam, có dân số đứng thứ 3, diện tích đứng thứ 5 cả nước."
+    },
+    {
+      "id": 4,
+      "name": "Thành phố Nam Định",
+      "address": "Hướng rừng",
+      "price": 50,
+      "rating": 4.68,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/235d56fe-4241-4267-a24c-c70fdb4f8711.jpg?alt=media&token=d6c2e533-f0a3-4b9e-b6d9-33cf7d55dc73",
+      "descrip": "Nam Định là một tỉnh nằm ở phía Nam đồng bằng Bắc Bộ (còn gọi là đồng bằng Sông Hồng), Việt Nam,[8][9] giáp tỉnh Thái Bình về phía đông bắc, tỉnh Ninh Bình "
+    },
+    {
+      "id": 5,
+      "name": "Thành phố Cà Mau",
+      "address": "Hướng sông",
+      "price": 70,
+      "rating": 4.87,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/3ea816e8-1b93-4a25-bb0e-2a3ee6448c6e.jpeg?alt=media&token=54c4e24a-d78d-4ba5-9c0f-97319f352141",
+      "descrip": "Cà Mau là một tỉnh ven biển ở cực nam của Việt Nam, nằm trong khu vực Đồng bằng sông Cửu Long. Toàn bộ địa phận Cà Mau nằm trên Bán đảo Cà Mau."
+    },
+    {
+      "id": 6,
+      "name": "Thành phố Bình Định",
+      "address": "Hướng núi",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/41e10b7e-4908-4cdb-963f-87399b27cc63.jpg?alt=media&token=70cb70e4-e9db-4d80-b1b2-e481ed35eab1",
+      "descrip": "Cà Mau là một tỉnh ven biển ở cực nam của Việt Nam, nằm trong khu vực Đồng bằng sông Cửu Long. Toàn bộ địa phận Cà Mau nằm trên Bán đảo Cà Mau."
+    },
+    {
+      "id": 7,
+      "name": "Thành phố ĐăkLak",
+      "address": "Phù sa",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/4bc53dfe-2ef7-402c-a68f-f0a9b22da386.jpg?alt=media&token=94b8f0d8-f4e9-4bb3-bbeb-6f376cb57b54",
+      "descrip": "Đắk Lắk là một tỉnh nằm ở trung tâm vùng Tây Nguyên, miền Trung Việt Nam. Năm 2019, Đắk Lắk là đơn vị hành chính Việt Nam có diện tích lớn thứ 4, đông thứ 10 về dân số,"
+    },
+    {
+      "id": 8,
+      "name": "Thành phố Hải Phòng",
+      "address": "Xa bờ",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/5c6f5c7c-b63e-4c2a-a560-8841ea8a9b34.jpg?alt=media&token=3911fd3c-0345-4895-a5fb-7d8f87b5689e",
+      "descrip": "Hải Phòng là thành phố cảng quan trọng, trung tâm công nghiệp, cảng biển, đồng thời cũng là trung tâm kinh tế, văn hóa,..."
+    },
+    {
+      "id": 9,
+      "name": "Thành phố Đà Nẵng",
+      "address": "Sóng biển",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/9.jpg?alt=media&token=6f644cf4-7a4f-4ead-8697-94423a8c4120",
+      "descrip": "Đà Nẵng là một thành phố trực thuộc trung ương, nằm trong vùng Duyên hải Nam Trung Bộ. Là thành phố trung tâm và lớn nhất khu vực miền Trung - Tây Nguyên."
+    },
+    {
+      "id": 10,
+      "name": "Thành phố Vinh",
+      "address": "Đất cát",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/9025e20a-eda6-46e3-a7c4-40dc5d568cb0.jpg?alt=media&token=4d36a578-54d2-4589-861e-ae31260b1850",
+      "descrip": "Vinh là thành phố trực thuộc tỉnh Nghệ An, Việt Nam. Thành phố có vị trí ở phía Đông Nam của tỉnh bên cạnh sông Lam"
+    },
+    {
+      "id": 11,
+      "name": "Thành phố Ninh Bình",
+      "address": "Hướng biển",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/a71562ca-bb0e-425d-b33f-e397617159e8.jpg?alt=media&token=dcc9b094-1452-4ee8-90fc-6f9b744c2f1e",
+      "descrip": "Ninh Bình là một tỉnh thuộc nam Đồng bằng Sông Hồng và nằm ở cửa ngõ cực nam miền Bắc, Việt Nam.["
+    },
+    {
+      "id": 12,
+      "name": "Thành phố Bắc Giang",
+      "address": "Đất cát",
+      "price": 57,
+      "rating": 4.74,
+      "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/b194d187-e28f-4255-9c74-5fb34dfb0e2d.jpg?alt=media&token=dd7973df-3db8-44e3-b04b-ce23ebff94c9",
+      "descrip": "Bắc Giang là một tỉnh trung du thuộc vùng Đông Bắc Bộ, Việt Nam"
+    }
+  ],
+  "user-register": [
+    {
+      "name": "iphone 12",
+      "email": "kand@gmail.com",
+      "password": "123",
+      "message": "Tài khoản của bạn đã được đăng kí thành công",
+      "errorMessage": "",
+      "id": 1,
+      "selectedItems": [
+        {
+          "id": 1,
+          "name": "Thành phố Nha Trang",
+          "address": "Nhiệt đới, Hướng biển",
+          "price": 60,
+          "rating": 4.81,
+          "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/0cbb0adc-0189-4e82-bc33-9b1f5fbebfdb.jpg?alt=media&token=899603a4-9733-49ec-b837-262465ab4fd6",
+          "dateIn": "2023-05-09",
+          "dateOut": "2023-05-25",
+          "complete": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Thành phố Thanh Hóa",
+          "address": "Xa lộ",
+          "price": 40,
+          "rating": 4.9,
+          "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/11.jpeg?alt=media&token=b9e0b5d8-f353-4967-9433-ffaa5742e4eb",
+          "dateIn": "2023-05-08",
+          "dateOut": "2023-05-24"
+        }
+      ]
+    },
+    {
+      "name": "iphone 12",
+      "email": "chulsoon2605@gmail.com",
+      "password": "12",
+      "message": "",
+      "errorMessage": "",
+      "id": 2,
+      "selectedItems": []
+    },
+    {
+      "name": "iphone 12",
+      "email": "kand@gmail.com",
+      "password": "123",
+      "message": "",
+      "errorMessage": "",
+      "id": 3,
+      "selectedItems": []
+    },
+    {
+      "name": "Lê Duy Khánh",
+      "email": "kand@gmal.co",
+      "password": "12",
+      "message": "",
+      "errorMessage": "",
+      "id": 4,
+      "selectedItems": []
+    },
+    {
+      "name": "asdasd",
+      "email": "kand@gmail.com",
+      "password": "123",
+      "message": "",
+      "errorMessage": "",
+      "id": 5,
+      "selectedItems": []
+    },
+    {
+      "name": "iphone 12",
+      "email": "kand@gmail.com",
+      "password": "123",
+      "message": "",
+      "errorMessage": "",
+      "id": 6,
+      "selectedItems": []
+    },
+    {
+      "name": "h",
+      "email": "h@gmail.com",
+      "password": "123123123",
+      "message": "",
+      "errorMessage": "",
+      "selectedItems": [
+        {
+          "id": 1,
+          "name": "Thành phố Nha Trang",
+          "address": "Nhiệt đới, Hướng biển",
+          "price": 60,
+          "rating": 4.81,
+          "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-react-a465e.appspot.com/o/0cbb0adc-0189-4e82-bc33-9b1f5fbebfdb.jpg?alt=media&token=899603a4-9733-49ec-b837-262465ab4fd6",
+          "dateIn": "2023-05-29",
+          "dateOut": "2023-06-09",
+          "complete": "pending"
+        }
+      ],
+      "id": 7
+    }
+  ]
+}

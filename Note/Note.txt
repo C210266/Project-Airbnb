@@ -1,0 +1,36 @@
+B1 : npx create-react-app my-app
+B2 : npm i react-bootstrap bootstrap axios react-router-dom
+B3 : cdn fontawsome 
+B4 : npm install react-paginate --save
+
+
+
+/db.json:
+Để sử dụng json-server:
++ Bước 1: npm init => để tạo ra package.json
++ Bước 2: npm i json-server => để cài đặt json-server
++ Bước 3: tạo 1 file tên là db.json
++ Bước 4: Tạo lệnh start trong package.json => "start": "json-server --watch db.json --port 8000"
++ Bước 5: Dùng lệnh npm start
+
+
+/Redux : 
+B1 : Khởi tạo project npx create-react-app my-app
+B2 : Install redux : npm i redux react-redux
+B3 : Khởi tạo component -> Cho vao App.js
+B4 : Tạo folder reducer : 
+   + count.js
+   + index.js
+B5 : Tạo folder constant :
+   + actiontypes.jsx
+B6 : Viết logic trong count.js
+B7 : combineReducer để gộp cái reducer lại với nhau
+
+
+/Git :
+B1 : git init
+B2 : gỉ remote : ...
+B3 : git add .
+B4 : git commit -m 
+B5 : git status 
+B6 : git push
